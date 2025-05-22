@@ -206,3 +206,87 @@ li, a {
 .social-links a:hover {
     color: #FFD700;
 }
+
+
+.quotes {
+    display: flex;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      gap: 280px;
+      max-width: 1800px;
+      margin: 60px auto;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+
+.block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    max-width: 350px;
+    color: #333;
+}
+
+.block img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+    }
+
+.middle {
+      justify-content: center;
+    }
+
+.middle img {
+      width: 280px;
+      height: auto;
+    }
+
+.text-content {
+      line-height: 1.6;
+}
+
+
+.player {
+    position: relative;
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.player img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 25%;
+    left: 16%; /* Aligns to the left side with some padding */
+    transform: translateY(-50%);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 2;
+    text-align: left; /* Ensure text aligns left */
+    max-width: 40%; /* Optional: limit width if needed */
+    line-height: 1.4;
+}
+
+.overlay-subtext {
+    position: absolute;
+    top: 46%;
+    left: 16%; /* Aligns to the left side with some padding */
+    transform: translateY(-50%);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 2;
+    text-align: left; /* Ensure text aligns left */
+    max-width: 40%; /* Optional: limit width if needed */
+    line-height: 1.4;
+}

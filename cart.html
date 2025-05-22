@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cart - LAKÁN</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="cart.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar from main site -->
+  <div class="nav">
+    <ul class="links">
+      <li><a href="#">New Release</a></li>
+      <li><a href="#">Keyboard</a></li>
+      <li><a href="#">Headset</a></li>
+      <li><a href="#">Mouse</a></li>
+    </ul>
+    <img class="logo" src="Logo.png" alt="logo">
+    <ul class="accessability">
+      <li><a href="#"><img src="search.png" alt="search"></a></li>
+      <li><a href="#"><img src="profile.png" alt="profile"></a></li>
+      <li><a href="#"><img src="cart.png" alt="cart"></a></li>
+    </ul>
+  </div>
+
+  <!-- Cart Page Header -->
+  <header class="cart-header">
+    <h1>🛒 Your Cart</h1>
+    <a href="home.html" class="back-button"><i class="fas fa-arrow-left"></i> Continue Shopping</a>
+  </header>
+
+  <!-- Cart Content -->
+  <main class="cart-container">
+    <div class="cart-item">
+      <img src="scyrox.png" alt="Product Image">
+      <div class="item-details">
+        <h2>SCYROX V8</h2>
+        <p>₱3,499.00</p>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" value="1" min="1">
+        <button class="remove-btn">Remove</button>
+      </div>
+    </div>
+
+    <div class="cart-summary">
+      <h3>Total: ₱3,499.00</h3>
+      <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </main>
+
+</body>
+</html>
