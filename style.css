@@ -391,6 +391,14 @@ li, a {
     overflow: hidden;
 }
 
+.miggy{
+    position: absolute;
+    top: 61.7%;   /* Adjust position */
+    left: 66%;  /* Adjust position */
+    width: 100%; /* Adjust size */
+    z-index: 10;
+}
+
 .player img {
     width: 100%;
     height: auto;
@@ -411,10 +419,14 @@ li, a {
     line-height: 1.4;
 }
 
+.highlight {
+  color: #e4d503; /* or any color you want */
+}
+
 .overlay-subtext {
     position: absolute;
-    top: 46%;
-    left: 16%; 
+    top: 47%;
+    left: 14%; 
     transform: translateY(-50%);
     color: white;
     font-size: 40px;
