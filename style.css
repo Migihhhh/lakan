@@ -143,3 +143,66 @@ li, a {
     gap: 20px;
     padding: 0 20px;
 }
+
+
+
+
+.site-footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: "Signika", sans-serif;
+}
+
+.footer-left {
+    flex: 1;
+    min-width: 150px;
+}
+
+.footer-left p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-right {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    min-width: 300px;
+}
+
+.brand-name {
+    color: #FFD700;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.footer-right p {
+    color: white;
+    margin: 5px 0 10px;
+    text-align: right;
+}
+
+.footer-right a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #FFD700;
+}
