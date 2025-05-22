@@ -290,3 +290,50 @@ li, a {
     max-width: 40%; /* Optional: limit width if needed */
     line-height: 1.4;
 }
+
+.weekly-blogs {
+  padding: 40px 16%;
+  color: black; /* Default text color */
+  background: #fff; /* Optional: white background so black text shows well */
+}
+
+.weekly-blogs h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+  text-align: center; /* Center the title */
+  color: black;
+}
+
+.blog-list {
+  display: flex;
+  gap: 70px;
+  justify-content: space-between;
+}
+
+.blog-item {
+  flex: 1 1 30%;
+  text-align: center;
+}
+
+.blog-item img {
+  width: 100%;
+  height: 300px;
+  display: block;
+  border-radius: 8px;
+}
+
+.blog-link {
+  display: block;
+  margin-top: 12px;
+  color: black; /* Make clickable text black */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.blog-link:hover {
+  color: #555; /* Slight dark gray on hover */
+  text-decoration: underline;
+}
