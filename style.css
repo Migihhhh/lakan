@@ -419,7 +419,7 @@ li, a {
 .overlay-subtext {
     position: absolute;
     top: 47%;
-    left: 14%; 
+    left: 10%; 
     transform: translateY(-50%);
     color: white;
     font-size: 40px;
