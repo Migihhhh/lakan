@@ -134,7 +134,7 @@ li, a {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 30px; 
+    bottom: 74%; 
     margin: 0 auto;
     gap: 10px;
     z-index: 2;
