@@ -391,13 +391,6 @@ li, a {
     overflow: hidden;
 }
 
-.miggy{
-    position: absolute;
-    top: 61.7%;   /* Adjust position */
-    left: 66%;  /* Adjust position */
-    width: 100%; /* Adjust size */
-    z-index: 10;
-}
 
 .player img {
     width: 100%;
