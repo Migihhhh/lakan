@@ -41,3 +41,14 @@ li, a {
     padding-top: 10px;
     width: 20%;
 }
+
+
+/* products */
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
