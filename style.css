@@ -391,6 +391,7 @@ li, a {
     overflow: hidden;
 }
 
+
 .player img {
     width: 100%;
     height: auto;
@@ -411,10 +412,14 @@ li, a {
     line-height: 1.4;
 }
 
+.highlight {
+  color: #e4d503; /* or any color you want */
+}
+
 .overlay-subtext {
     position: absolute;
-    top: 46%;
-    left: 16%; 
+    top: 47%;
+    left: 10%; 
     transform: translateY(-50%);
     color: white;
     font-size: 40px;
