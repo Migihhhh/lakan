@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -10,7 +10,8 @@
 
 /* NAV BAR */
 
-li, a {
+li,
+a {
     color: black;
     text-decoration: none;
     font-size: 25px;
@@ -18,41 +19,75 @@ li, a {
     list-style: none;
 }
 
-.logo{
-    padding-top: 10px;
+.logo-link {
+    display: inline-block;
+}
+
+.logo-link img {
+    width: 65%;
+    /* or set to your original logo width if needed */
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    /* center horizontally */
+    align-items: center;
+    /* center vertically */
+    height: 100px;
+    /* or adjust based on your navbar height */
     width: 10%;
-    padding-bottom: 20px;
+    padding: 10px 0;
+    padding-left: 7%;
 
 }
 
-.nav{
+/* LAKAN GIF Section */
+.lakan-gif {
+    text-align: center;
+    padding: 60px 0;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.lakan-gif img {
+    max-width: 1800px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #f0efef;
 }
 
-.links, .accessability{
+.links,
+.accessability {
     display: flex;
     padding-left: 56px;
     gap: 65px;
     padding-top: 20px;
 }
 
-.accessability, img{
+.accessability,
+img {
     padding-top: 10px;
     width: 27%;
 }
 
 /* BANNER */
 
-.hotdeals{
+.hotdeals {
     margin-top: -10px;
     position: relative;
 }
 
 .hotdeals_slides {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -61,17 +96,19 @@ li, a {
 .leftButton {
     left: 15px;
 }
+
 .rightButton {
     right: 15px;
-    
+
 }
 
-.leftButton, .rightButton {
+.leftButton,
+.rightButton {
     position: absolute;
     top: 50%;
     width: 50px;
     height: 50;
-    font-size: 4.3rem; 
+    font-size: 4.3rem;
     color: white;
     border: none;
     cursor: pointer;
@@ -79,7 +116,7 @@ li, a {
     align-items: center;
     justify-content: center;
     transform: translateY(-50%);
-    background-color:transparent;
+    background-color: transparent;
     border-radius: 50%;
     opacity: 0.5;
 }
@@ -96,18 +133,18 @@ li, a {
 }
 
 .slides-container img {
-    width: 600px;      
-    height: 400px;     
-    object-fit: cover; 
-    max-width: 100%;   
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    max-width: 100%;
     display: block;
     margin: 0 auto;
 }
 
 .slides {
-    min-width: 100vw;  
+    min-width: 100vw;
     max-width: 100vw;
-    height: 90vh;     
+    height: 90vh;
     display: none;
     align-items: center;
     justify-content: center;
@@ -122,7 +159,7 @@ li, a {
 }
 
 .slides.active {
-    display: flex; 
+    display: flex;
     opacity: 1;
 }
 
@@ -134,7 +171,7 @@ li, a {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 74%; 
+    bottom: 74%;
     margin: 0 auto;
     gap: 10px;
     z-index: 2;
@@ -167,7 +204,7 @@ li, a {
     height: 50px;
     text-align: center;
     font-size: 25px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;
     border-radius: 35px;
     bottom: 30px;
@@ -177,10 +214,11 @@ li, a {
 }
 
 .shopnowButton:hover {
-    background-color: #aba9a9; 
+    background-color: #aba9a9;
 }
+
 .shopnowButton:active {
-    background-color: #696969; 
+    background-color: #696969;
 }
 
 /* BEST SELLER */
@@ -248,7 +286,7 @@ li, a {
 }
 
 .rating i {
-    color: #ffc107; 
+    color: #ffc107;
     margin-right: 2px;
     font-size: 18px;
 }
@@ -343,14 +381,14 @@ li, a {
 
 .quotes {
     display: flex;
-      justify-content: space-evenly;
-      align-items: flex-start;
-      gap: 280px;
-      max-width: 1800px;
-      margin: 60px auto;
-      padding: 20px;
-      flex-wrap: wrap;
-    }
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 280px;
+    max-width: 1800px;
+    margin: 60px auto;
+    padding: 20px;
+    flex-wrap: wrap;
+}
 
 .block {
     flex: 1;
@@ -364,22 +402,22 @@ li, a {
 }
 
 .block img {
-      width: 60px;
-      height: 60px;
-      object-fit: contain;
-    }
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
 
 .middle {
-      justify-content: center;
-    }
+    justify-content: center;
+}
 
 .middle img {
-      width: 280px;
-      height: auto;
-    }
+    width: 280px;
+    height: auto;
+}
 
 .text-content {
-      line-height: 1.6;
+    line-height: 1.6;
 }
 
 /* PLAYER COMMENT */
@@ -401,80 +439,81 @@ li, a {
 .overlay-text {
     position: absolute;
     top: 25%;
-    left: 16%; 
+    left: 16%;
     transform: translateY(-50%);
     color: white;
     font-size: 40px;
     font-weight: bold;
     z-index: 2;
-    text-align: left; 
-    max-width: 40%; 
+    text-align: left;
+    max-width: 40%;
     line-height: 1.4;
 }
 
 .highlight {
-  color: #e4d503; /* or any color you want */
+    color: #e4d503;
+    /* or any color you want */
 }
 
 .overlay-subtext {
     position: absolute;
     top: 47%;
-    left: 10%; 
+    left: 10%;
     transform: translateY(-50%);
     color: white;
     font-size: 40px;
     font-weight: bold;
     z-index: 2;
-    text-align: left; 
-    max-width: 40%; 
+    text-align: left;
+    max-width: 40%;
     line-height: 1.4;
 }
 
 /* BLOG */
 
 .weekly-blogs {
-  padding: 40px 16%;
-  color: black; 
-  background: #fff; 
+    padding: 40px 16%;
+    color: black;
+    background: #fff;
 }
 
 .weekly-blogs h2 {
-  font-size: 32px;
-  margin-bottom: 24px;
-  text-align: center; 
-  color: black;
+    font-size: 32px;
+    margin-bottom: 24px;
+    text-align: center;
+    color: black;
 }
 
 .blog-list {
-  display: flex;
-  gap: 70px;
-  justify-content: space-between;
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
 }
 
 .blog-item {
-  flex: 1 1 30%;
-  text-align: center;
+    flex: 1 1 30%;
+    text-align: center;
 }
 
 .blog-item img {
-  width: 100%;
-  height: 300px;
-  display: block;
-  border-radius: 8px;
+    width: 100%;
+    height: 300px;
+    display: block;
+    border-radius: 8px;
 }
 
 .blog-link {
-  display: block;
-  margin-top: 12px;
-  color: black; 
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 16px;
-  cursor: pointer;
-  transition: color 0.3s ease;
+    display: block;
+    margin-top: 12px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
 }
 
 .blog-link:hover {
-  color: #555; 
-  text-decoration: underline;
+    color: #555;
+    text-decoration: underline;
 }
